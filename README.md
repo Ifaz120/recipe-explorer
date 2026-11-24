@@ -2,7 +2,7 @@
 
 A small React app for searching and browsing recipes, built for a class assignment. It uses the free [TheMealDB](https://www.themealdb.com/api.php) API (no API key needed). The interface follows Apple's dark design style (like Apple TV and Music): true-black background, one pink-red accent, photo-first cards, a translucent navbar, grouped lists and large tight typography.
 
-**Live site:** https://recipe-explorer-mocha-omega.vercel.app/
+**Live site:** https://recipe-explorer-ifaz.vercel.app/
 
 ## Features
 
