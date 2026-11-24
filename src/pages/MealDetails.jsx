@@ -74,7 +74,7 @@ export default function MealDetails() {
     <div className="relative isolate overflow-x-clip">
       {/* Ambient glow: a blurred copy of the photo behind the page, fading to black */}
       {meal && (
-        <div aria-hidden className="pointer-events-none absolute inset-x-0 top-0 -z-10 h-[80vh] [mask-image:linear-gradient(to_bottom,black,transparent)]">
+        <div aria-hidden className="pointer-events-none absolute inset-x-0 top-0 -z-10 h-[80vh] mask-[linear-gradient(to_bottom,black,transparent)]">
           <img src={meal.strMealThumb + "/small"} alt="" className="size-full scale-150 object-cover opacity-40 blur-[80px] saturate-150" />
         </div>
       )}
